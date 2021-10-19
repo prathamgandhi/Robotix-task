@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Enter the data to be posted to the json below</h1>
+        <form action="{{url_for('handle_data')}}" method='post'>
+            Enter the category <input type="text" name="category"> <br><br>
+            Enter the name <input type="text" name="name"> <br><br>
+            Enter the rating <input type="text" name="rating"> <br><br>
+            Enter the image <input type="text" name='image'> <br><br>
+            Enter the description <input type="text" name="description"> <br><br>
+            Enter the availability <input type="text" name="avail"> <br><br>
+            Enter the sizes (space separated) <input type="text" name="size"> <br><br>
+            Enter the condition <input type="text" name="condition"> <br><br>
+            Enter the color <input type="text" name="color"> <br><br>
+            Enter the price <input type="text" name="price"> <br><br>
+            Enter the keywords (space separated) <input type="text" name="keywords"> <br><br>
+            Enter the discount <input type="text" name="discount"> <br><br>
+            <input type="submit">
+        </form>
+    </center>
+</body>
+</html>
